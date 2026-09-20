@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<defs>
+ <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#dbe7ee"/><stop offset="1" stop-color="#b8c9d4"/></linearGradient>
+ <linearGradient id="floor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8a6d58"/><stop offset="1" stop-color="#4c3a31"/></linearGradient>
+ <linearGradient id="sofa" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#234f70"/><stop offset="1" stop-color="#102e49"/></linearGradient>
+ <linearGradient id="stove" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#394957"/><stop offset="1" stop-color="#151e27"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".25"/></filter>
+ <radialGradient id="fire"><stop stop-color="#fff"/><stop offset=".25" stop-color="#ffd45a"/><stop offset="1" stop-color="#ff3d22" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#wall)"/><path d="M0 590L1600 510V900H0Z" fill="url(#floor)"/>
+<path d="M0 0H1600V120H0Z" fill="#d5e1e8"/>
+<!-- window --> <rect x="190" y="125" width="430" height="340" rx="12" fill="#24384b" filter="url(#shadow)"/><rect x="208" y="143" width="394" height="304" fill="#8fd5ef"/><path d="M405 143V447M208 295H602" stroke="#fff" stroke-width="15"/><path d="M208 447L602 143" stroke="#fff" stroke-width="6" opacity=".45"/><path d="M250 175h150v95H250z" fill="#d8f2ff" opacity=".25"/>
+<!-- curtains --> <path d="M165 105q70 80 70 385h-95V105zm480 0q-70 80-70 385h95V105z" fill="#f1e7dc"/><path d="M170 110q45 75 45 360M640 110q-45 75-45 360" fill="none" stroke="#d2c3b3" stroke-width="14" opacity=".7"/>
+<!-- sofa --> <path d="M55 500q0-60 60-60h290q65 0 65 65v145H55z" fill="url(#sofa)" filter="url(#shadow)"/><rect x="80" y="445" width="120" height="170" rx="28" fill="#2e607f"/><rect x="250" y="445" width="170" height="170" rx="28" fill="#214b68"/><rect x="40" y="625" width="410" height="35" rx="15" fill="#142b40"/>
+<!-- plant --> <path d="M500 600q30-80 80-100q-20 80-80 100zm0 0q0-100-40-130q-5 95 40 130zM480 600q-30-55-70-50q25 55 70 50z" fill="#4ca66b"/><path d="M475 600h65l-12 110h-42z" fill="#b36e47"/>
+<!-- kitchen cabinets --> <rect x="770" y="95" width="580" height="185" rx="8" fill="#e8e3d9" filter="url(#shadow)"/><path d="M770 185h580M965 95v185M1160 95v185" stroke="#b4aaa0" stroke-width="6"/><circle cx="945" cy="190" r="7" fill="#6d7276"/><circle cx="1140" cy="190" r="7" fill="#6d7276"/><rect x="820" y="280" width="480" height="280" rx="15" fill="#cad2d8"/>
+<!-- stove --> <rect x="900" y="360" width="300" height="350" rx="20" fill="url(#stove)" filter="url(#shadow)"/><rect x="925" y="395" width="250" height="70" rx="12" fill="#0d151d"/><circle cx="970" cy="430" r="16" fill="#cbd5dc"/><circle cx="1045" cy="430" r="16" fill="#cbd5dc"/><circle cx="1120" cy="430" r="16" fill="#cbd5dc"/><rect x="945" y="485" width="210" height="180" rx="12" fill="#10171e"/><path d="M1035 630q45-80 90 0" fill="none" stroke="#ffad2e" stroke-width="20"/><ellipse cx="1090" cy="640" rx="130" ry="120" fill="url(#fire)" opacity=".7"/>
+<!-- pan --> <ellipse cx="1030" cy="360" rx="95" ry="22" fill="#222c35"/><rect x="950" y="330" width="170" height="35" rx="15" fill="#1b252e"/><path d="M1120 345h105" stroke="#222c35" stroke-width="18" stroke-linecap="round"/>
+<!-- outlet + overloaded wire --> <rect x="650" y="440" width="75" height="100" rx="12" fill="#f7f7f4"/><circle cx="675" cy="475" r="7" fill="#253747"/><circle cx="700" cy="475" r="7" fill="#253747"/><path d="M690 520q120 20 145 120" fill="none" stroke="#252b31" stroke-width="16"/><path d="M750 545q70 15 85 70" fill="none" stroke="#ff302d" stroke-width="7"/>
+<!-- table --> <rect x="480" y="680" width="560" height="35" rx="12" fill="#704b37"/><path d="M525 715v155M995 715v155" stroke="#4a3328" stroke-width="35"/>
+<!-- candle --> <rect x="1070" y="610" width="42" height="90" rx="8" fill="#f4e4c6"/><path d="M1091 610q-28-42 0-68q28 26 0 68" fill="#ff6a27"/><ellipse cx="1091" cy="600" rx="70" ry="85" fill="url(#fire)" opacity=".45"/>
+<!-- door --> <rect x="1335" y="190" width="190" height="500" rx="10" fill="#5b3f35" filter="url(#shadow)"/><rect x="1360" y="225" width="140" height="180" fill="#765347"/><circle cx="1400" cy="470" r="12" fill="#e5b04d"/><rect x="1280" y="700" width="330" height="55" rx="20" fill="#303a45"/><path d="M1310 715h270" stroke="#ff302d" stroke-width="12" stroke-dasharray="25 18"/>
+<!-- rug --> <rect x="360" y="690" width="500" height="145" rx="28" fill="#bd5b4f" opacity=".65" transform="rotate(-3 610 760)"/>
+<!-- subtle labels --> <g font-family="Arial" font-weight="700" fill="#fff" opacity=".75"><text x="275" y="510" font-size="24">ОКНО</text><text x="650" y="570" font-size="20">РОЗЕТКА</text><text x="980" y="755" font-size="20">СВЕЧА</text><text x="1390" y="790" font-size="20">ВЫХОД</text></g>
+</svg>
